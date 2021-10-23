@@ -1,0 +1,161 @@
+
+@import url('');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/programador.png") ;
+    background-size: cover;
+    background-position:center;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.content p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.content span{
+    background:#009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.content button:hover span{
+    width: 100%;
+}
+.conten button:hover{
+    border: none;
+}
+
+.jobs{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top:  100px;
+}
+
+.jobs h1{
+font-size: 36px;
+font-weight: 600;
+}
+ .jobs p{
+   color: rgb(0, 0, 0);
+   text-align: justify;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 10px;
+ }
+
+ .jobs-row{
+     margin-top: 5%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .jobs-col{
+     flex-basis: 31%;
+     background: #fff3f3;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     padding: 20px 12px;
+     box-sizing: border-box;
+     transition: 0.5s;
+ }
+
+ .jobs-col h3{
+     text-align: center;
+     font-weight: 600;
+     margin: 10px 0;
+ }
+
+ .jobs-col:hover{
+     box-shadow: 0 0 20px 0px rgba(0, 0,0,0.2);
+ }
+
+ .places{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top:  40px;
+}
+
+.places_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.places-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.places-col img{
+    width: 105%;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+ background:rgba(128, 128, 148, 0.7);
+}
+
+.santiago{
+    height: 105%;
+}
+.romana{
+    height: 105%;
+}
+
+
